@@ -1,0 +1,8 @@
+<h1>EksLight</h1>
+<div class="light">
+  <img class="bulb" src="/images/bulb.png" style="background-color: <%= @color %>;" onclick="document.getElementById('color').click();" />
+  <img class="thread" phx-click="on_off" src="/images/thread.png" />
+  <form phx-change="update">
+    <input phx-debounce="100" type="color" id="color" name="color" value=<%= @color %>>
+  </form>
+</div>

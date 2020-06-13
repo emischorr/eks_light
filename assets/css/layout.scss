@@ -1,0 +1,36 @@
+body {
+  background-color: #594a62;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  letter-spacing: 2px;
+}
+
+.light {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+
+  form {
+    position: absolute;
+  }
+}
+
+.bulb {
+  max-height: 75%;
+  margin-bottom: 1.2%;
+}
+
+.thread {
+  max-height: 25%;
+}
+
+#color {
+  opacity: 0;
+}
